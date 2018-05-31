@@ -1,5 +1,5 @@
 
-set tcl_path E:/Calculate_data/lmp@2D_Layer_Dynamic/20180516-work/tcl
+set tcl_path C:/Users/RTS-Kui/Documents/GitHub/VMD-RDF
 
 ##########################################################################
 ####                         设置工作路径目录                         ####
