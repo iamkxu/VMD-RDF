@@ -12,10 +12,10 @@ array set work_dir [list {1} {E:/Calculate_data/lmp@2D_Layer_Dynamic/20180516-wo
 ##########################################################################
 ####                         设置变量参数                             ####
 
-set atom_1(1) c1w ;#计算原子种类
-set atom_2(1) c1w ;
+set atom_1(1) c1r ;#计算原子种类
+set atom_2(1) c1r ;
 
-set atom_1(2) c1w ;
+set atom_1(2) c1r ;
 set atom_2(2) n5f ;
 
 set atom_1(3) n5f ;

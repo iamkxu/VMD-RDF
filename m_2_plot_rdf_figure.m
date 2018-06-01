@@ -5,9 +5,9 @@
 
 cd('rdf_out');
 
-n_eld = system_info.electrode{i_eld,1};
-n_cat = system_info.cation{i_cat,1};
-n_ani = system_info.anion{i_ani,1};
+n_eld = system_info.electrode{1,i_eld};
+n_cat = system_info.cation{1,i_cat};
+n_ani = system_info.anion{1,i_ani};
 
 if strcmp(n_cat,'EMIM')
     com_cat = 'c1w';
@@ -91,6 +91,7 @@ legend('show');
 savefig(figure_AA,strcat('m_rdf_',n_eld,'-',n_cat,n_ani,'Anion-Anion','.fig'));
 print(figure_AA,'-dpng',strcat('m_rdf_',n_eld,'-',n_cat,n_ani,'Anion-Anion','.png'));
 
+cd ..
 %%
 
 
